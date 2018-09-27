@@ -1,0 +1,22 @@
+/* Mudar icones endpoint*/
+body.woocommerce-account ul .woocommerce-MyAccount-navigation-link--vouchers span:before,
+body.woocommerce-account .form-container .woocommerce-MyAccount-navigation-link--vouchers span:before{
+    content: "\f1ea" !important;
+}
+
+
+.voucher_was_used {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
+
+.voucher_not_used {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: green;
+}
