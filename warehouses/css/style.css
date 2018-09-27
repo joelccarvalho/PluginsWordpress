@@ -1,0 +1,264 @@
+.table-style
+{
+    width: initial;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.style-thead
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.my_button
+{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.button-edit{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    box-shadow: 0 1px 0 #4cae4c;
+}
+
+.button-edit:hover {
+    background: #449d44;
+    border-color: #398439;
+    color: #fff;
+}
+
+.button-remove{
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    box-shadow: 0 1px 0 #d9534f;
+}
+
+.button-remove:hover {
+    background: #d43f3a;
+    border-color: #ac2925;
+    color: #fff;
+}
+
+
+.box_search{
+    display: table-cell;
+    margin-right: -1px;
+    border-radius: 3px;
+    height: 29px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+
+.input-group{
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-btn
+{
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.form_control{
+    width: 220px;
+    height: 25px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.title_insert
+{
+    font-size: 20px;
+    color: black;
+    line-height: 0;
+}
+
+.widefat thead th.title_extras, th.title_extras{
+    font-size: 20px;
+    border-bottom: 0px;
+    color: #2a6496;
+}
+
+.widefat thead tr th.style_th_table, .widefat thead tr th.subtitle_extras
+{
+    color: #2a6496;
+}
+
+td.without_stock
+{
+    color: #990000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+td.with_stock
+{
+    color: green;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+td.danger_stock
+{
+    color: rgb(218, 218, 44);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.name_product
+{
+    color: #2a6496;
+}
+
+/*Dropdown da pesquisa por nome*/
+
+.btn_search {
+    min-width: 230px;
+}
+
+#myInput {
+    border-box: box-sizing;
+    font-size: 16px;
+    border: none;
+    color: black;
+    font-weight: 100;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    max-height: 185px;
+    overflow-y: auto;
+    min-height: 77px;
+}
+
+.dropdown-content a {
+    color: #0073aa;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.without_product{
+   padding-left: 2px;
+   font-weight: 500;
+}
+
+.tooltip {
+    color: black;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* --- Navigation --- */
+.nav_products{
+    color: #2a6496;
+    font-weight: bold;
+}
+
+.nav_products a{
+    color: #2a6496;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0px 4px 0px 4px;
+}
+
+.nav_products a:hover{
+    font-weight: bold;
+}
+
+/* Input paginaton */
+.input_pagination {
+    width: 45px;
+    margin: 0 2px 0 0;
+    padding-bottom: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Button navigation */
+.button_navigation {
+    display: inline-block;
+    min-width: 17px;
+    border: 1px solid #ccc;
+    padding: 3px 5px 7px;
+    background: #e5e5e5;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+}
+
+.inline_pagination {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.input_pagination {
+    height: 30px;
+}
