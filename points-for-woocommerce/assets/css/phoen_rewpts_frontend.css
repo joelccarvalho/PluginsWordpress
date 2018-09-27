@@ -1,0 +1,40 @@
+/*.phoen_rewpts_pts_link_div {
+
+	display: inline-block;
+	padding:20px;
+}
+.phoen_rewpts_redeem_message_on_cart
+{
+	display: inline-block;
+
+}
+.phoen_rewpts_reward_message_on_cart{
+	display: inline-block;
+}
+*/
+.pag_players a{
+    text-align: center;
+    font-size: 13px;
+    height: 45px;
+    line-height: 41px;
+    letter-spacing: 0px;
+    padding: 0 20px;
+    border: 2px solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    background-color: #222;
+    border-color: #323232;
+    color: #fff;
+}
+
+/* Mudar icones endpoint*/
+body.woocommerce-account ul .woocommerce-MyAccount-navigation-link--players span:before,
+body.woocommerce-account .form-container .woocommerce-MyAccount-navigation-link--players span:before{
+    content: "\f0c0" !important;
+}
+
+
+.pag_players_numbers{
+    color: #222;
+    font-size: 13px;
+}
